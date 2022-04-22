@@ -1,4 +1,4 @@
-package Demo;/* Created with IntelliJ IDEA Ultimate Edition 2021.3.2
+package First;/* Created with IntelliJ IDEA Ultimate Edition 2021.3.2
  * @author： 君临者
  * @date： 2022/04/16 13:56
  * @description： 宠辱不惊，去留无意
@@ -12,4 +12,7 @@ package Demo;/* Created with IntelliJ IDEA Ultimate Edition 2021.3.2
  * @author Feyncode
  */
 public class Demo1 {
+    public static void main(String[] args) {
+        System.out.println("Hello world!");
+    }
 }

@@ -12,11 +12,13 @@ package abstractClasses;/* Created with IntelliJ IDEA Ultimate Edition 2022.1
  */
 public class Student extends Person {
     private String major;
-    public Student(String name,String major){
+
+    public Student(String name, String major) {
         super(name);
         this.major = major;
     }
-    public String getDescription(){
+
+    public String getDescription() {
         return "a student majoring in " + major;
     }
 }

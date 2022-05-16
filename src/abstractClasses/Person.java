@@ -12,11 +12,14 @@ package abstractClasses;/* Created with IntelliJ IDEA Ultimate Edition 2022.1
  */
 public abstract class Person {
     public abstract String getDescription();
+
     private String name;
-    public Person(String name){
+
+    public Person(String name) {
         this.name = name;
     }
-    public String getName(){
+
+    public String getName() {
         return name;
     }
 }

@@ -12,8 +12,8 @@ package interfaces;
  * @version 1.0 2022-05-17
  */
 public class Employee implements Comparable<Employee> {
-    private String name;
-    private double salary;
+    private final String name;
+    private final double salary;
 
     public Employee(String name, double salary) {
         this.name = name;
@@ -24,18 +24,13 @@ public class Employee implements Comparable<Employee> {
         return name;
     }
 
-
     public double getSalary() {
         return salary;
     }
 
-    public void raiseSalary(double byPercent) {
-        double raise = salary * byPercent / 100;
-        salary += raise;
-    }
 
     @Override
-    public int compareTo(Employee other) {
+    public final int compareTo(Employee other) {
         return Double.compare(salary, other.salary);
     }
 

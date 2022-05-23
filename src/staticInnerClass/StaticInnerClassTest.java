@@ -26,12 +26,14 @@ public class StaticInnerClassTest {
 
 class ArrayAlg {
     public static class Pair {
-        private double first;
-        private double second;
+        private final double first;
+        private final double second;
+
         public Pair(double f, double s) {
             first = f;
             second = s;
         }
+
         public double getFirst() {
             return first;
         }

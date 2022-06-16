@@ -15,7 +15,7 @@ import java.math.RoundingMode;
  */
 public class BigDecimalDemo {
     public static void main(String[] args) {
-        System.out.println(ArityUtil.add(0.01,0.05));
+        System.out.println(ArityUtil.add(0.01, 0.05));
     }
 }
 
